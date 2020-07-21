@@ -1,4 +1,4 @@
-#
+
 class Dog
   attr_accessor :owner, :mood
   attr_reader :name
@@ -19,4 +19,4 @@ class Dog
   def self.all
     @@all
   end
-end # c
+end 
