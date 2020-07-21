@@ -1,5 +1,4 @@
 class Cat
- class Dog
   attr_accessor :owner, :mood
   attr_reader :name
 
@@ -12,12 +11,11 @@ class Cat
     save
   end
 
-  def save
-    @@all << self
-  end
-
   def self.all
     @@all
   end
-end # code goes here
+
+  def save
+    @@all << self
+  end
 end
